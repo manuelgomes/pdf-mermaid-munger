@@ -10,6 +10,8 @@ This code uses python's [pdfkit](https://pypi.org/project/pdfkit/), which in tur
 
 Poetry should handle the rest.
 
+Also required a decently recent version of [nodejs](https://nodejs.org), since the code execute the mermaid client through [npx](https://www.npmjs.com/package/npx).
+
 ## Future
 
 If any... testing and making allowance for remote images, not just ones on the filesystem.
